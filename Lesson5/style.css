@@ -16,3 +16,12 @@ video
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#894d26', endColorstr='#d68450',GradientType=0 );
 
 } 
+
+button {
+    background-color:black;
+    color:white;
+    height:40px;
+    border:2px white solid;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 5px;
+}

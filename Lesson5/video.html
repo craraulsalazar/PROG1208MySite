@@ -9,12 +9,27 @@
 <body> 
 <h1>Two Clips from "On Record"</h1> 
 
-<video poster="on_record.png" controls width="240px" preload> 
+<video id="video" poster="on_record.png" controls width="240px" preload> 
     <source src="on_record.mp4" type="video/mp4"> 
     <source src="on_record.ogv" type="video/ogg"> 
     Your browser does not support the video tag, click <a href="http://firefox.com">here</a> to download the firefox browser for your operation system.
 </video> 
 
+<br>
+<button onclick="playPause()">Play or pause the video</button> 
+<script> 
+
+var myVideo=document.getElementById("video"); 
+
+function playPause()
+{ 
+    if (myVideo.paused) 
+    myVideo.play(); 
+    else 
+    myVideo.pause(); 
+}
+
+</script>
 
 </body> 
 </html>
