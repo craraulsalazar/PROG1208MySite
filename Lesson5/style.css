@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+video 
+{ background-color:black;
+    margin:5px; 
+    padding:10px; 
+    float:left; 
+    height:300px; 
+    width:280px; 
+    border-radius: 20px;
+
+    background: #894d26;
+    background: -moz-linear-gradient(top, #894d26 0%, #d68450 100%);
+    background: -webkit-linear-gradient(top, #894d26 0%,#d68450 100%);
+    background: linear-gradient(to bottom, #894d26 0%,#d68450 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#894d26', endColorstr='#d68450',GradientType=0 );
+
+} 
