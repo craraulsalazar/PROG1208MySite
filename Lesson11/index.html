@@ -1,0 +1,105 @@
+<!doctype html>  
+<html> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Mobile site title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="themes/my-custom-theme.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="jquery.mobile.structure-1.4.5.min.css" /> 
+ 
+<script src="jquery-1.9.1.min.js"></script> 
+<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>  
+<body> 
+    
+
+            <div data-role="page" id="page">
+                <h1>William Shakespeare</h1>
+                <p>Did you ever wanted to know about him?</p>
+                <ul data-role="listview">
+                <li><a href="#page2">A little bit of his life</a></li>
+                <li><a href="#page3">Romeo and Juliet</a></li>
+                <li><a href="#page4">Othello</a></li>
+                <li><a href="#page5">Hamlet</a></li>
+                </ul>
+            </div>
+            <div data-role="page" id="page2" data-theme="e">
+                <div data-role="header" data-theme="a"> 
+                    <a href="index.html" data-icon="home" class="ui-btn-left" data-role="button">Home</a>
+                    <h1>A little bit of his life</h1> 
+                </div>
+                <div data-role="content" data-theme="a"> 
+                    <figure>
+                            <img alt="Colour picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/220px-Shakespeare.jpg" width="220" height="282">
+                            <figcaption>
+                            <h5>Born 26 april 1564</h5>
+                            </figcaption>
+                    </figure>
+                    <p>William Shakespeare (26 April 1564 (baptised) – 23 April 1616)[a] was an English poet, playwright and actor, widely regarded as both the greatest writer in the English language and the world's pre-eminent dramatist.[2][3][4] He is often called England's national poet and the "Bard of Avon".[5][b] His extant works, including collaborations, consist of approximately 39 plays,[c] 154 sonnets, two long narrative poems, and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright.</p>
+                </div> 
+                <div data-role="footer" data-theme="a"> 
+                    <h3>For more info  <a href="https://en.wikipedia.org/wiki/William_Shakespeare" alt="Learn more about him">click here</a></h3> 
+                </div> 
+            </div>        
+            <div data-role="page" id="page3">
+                <div data-role="header" data-theme="a"> 
+                        <a href="index.html" data-icon="home" class="ui-btn-left" data-role="button">Home</a>
+                        <h2>Romeo and Juliet</h2> 
+                </div>
+                <div data-role="content" data-theme="a"> 
+                    <figure>
+                            <img alt="Colour picture" src="data:image/jpeg;base64,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" width="119" height="160">
+                            <figcaption>
+                            <h5>Originally published in 1597</h5>
+                            </figcaption>
+                    </figure>
+                    <p>Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young star-crossed lovers whose deaths ultimately reconcile their feuding families. It was among Shakespeare's most popular plays during his lifetime and along with Hamlet, is one of his most frequently performed plays.</p>
+                </div>
+                <div data-role="footer" data-theme="a"> 
+                        <h3>For more info  <a href="https://en.wikipedia.org/wiki/Romeo_and_Juliet" alt="Learn more his works">click here</a></h3> 
+                </div>
+
+            </div>
+
+            <div data-role="page" id="page4">
+                    <div data-role="header" data-theme="a"> 
+                            <a href="index.html" data-icon="home" class="ui-btn-left" data-role="button">Home</a>
+                            <h2>Othello</h2> 
+                    </div>
+                    <div data-role="content" data-theme="a"> 
+                        <figure>
+                                <img alt="Colour picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Stanislavski_as_Othello_1896.jpg/170px-Stanislavski_as_Othello_1896.jpg" width="170" height="272">
+                            
+                                <figcaption>
+                                <h5>The Russian actor and theatre practitioner Konstantin Stanislavski as Othello in 1896</h5>
+                                </figcaption>
+                        </figure>
+                        <p>Othello (The Tragedy of Othello, the Moor of Venice) is a tragedy by William Shakespeare, believed to have been written in 1603. It is based on the story Un Capitano Moro ("A Moorish Captain") by Cinthio, a disciple of Boccaccio, first published in 1565.[1] The story revolves around its two central characters: Othello, a Moorish general in the Venetian army and his unfaithful ensign, Iago. Given its varied and enduring themes of racism, love, jealousy, betrayal, revenge and repentance, Othello is still often performed in professional and community theatre alike, and has been the source for numerous operatic, film, and literary adaptations. </p>
+                    </div>
+                    <div data-role="footer" data-theme="a"> 
+                            <h3>For more info  <a href="https://en.wikipedia.org/wiki/Othello" alt="Learn more his works">click here</a></h3> 
+                    </div>
+            </div>
+            <div data-role="page" id="page5">
+                    <div data-role="header" data-theme="a"> 
+                            <a href="index.html" data-icon="home" class="ui-btn-left" data-role="button">Home</a>
+                            <h2>Hamlet</h2> 
+                    </div>
+                    <div data-role="content" data-theme="a"> 
+                        <figure>
+                                <img alt="Colour picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Edwin_Booth_Hamlet_1870.jpg/220px-Edwin_Booth_Hamlet_1870.jpg" width="220" height="285">
+                                <figcaption>
+                                <h5>First Performance 1609</h5>
+                                </figcaption>
+                        </figure>
+                        <p>The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet, is a tragedy written by William Shakespeare at an uncertain date between 1599 and 1602. Set in Denmark, the play dramatises the revenge Prince Hamlet is called to wreak upon his uncle, Claudius, by the ghost of Hamlet's father, King Hamlet.</p>
+                    </div>
+                    <div data-role="footer" data-theme="a"> 
+                            <h3>For more info  <a href="https://en.wikipedia.org/wiki/Hamlet" alt="Learn more his works">click here</a></h3> 
+                    </div>
+            </div>
+
+</body> 
+</html
